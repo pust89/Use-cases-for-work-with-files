@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <files-path name="app_files" path="." />
+    <!-- ***   path can be like that path="my_video/"-->
+    <!--    Represents files in the files/ subdirectory of your app's internal storage area.
+        This subdirectory is the same as the value returned by Context.getFilesDir().-->
+
+    <cache-path name="app_file_cache" path="." />
+    <!--    Represents files in the cache subdirectory of your app's internal storage area.
+        The root path of this subdirectory is the same as the value returned by Context.getCacheDir().-->
+
+    <external-path name="external_files" path="."/>
+    <!--    Represents files in the root of the external storage area.
+        The root path of this subdirectory is the same as the value returned by
+        @Deprecated
+        Environment.getExternalStorageDirectory()
+        Context#getExternalFilesDir(String), MediaStore, or Intent#ACTION_OPEN_DOCUMENT offer better performance.
+        .-->
+
+    <external-files-path name="external_files_path" path="." />
+
+    <!--    See more at https://developer.android.com/reference/android/support/v4/content/FileProvider.html-->
+
+</paths>
