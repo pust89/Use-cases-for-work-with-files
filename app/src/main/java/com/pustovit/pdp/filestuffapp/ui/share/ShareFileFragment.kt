@@ -23,7 +23,6 @@ class ShareFragment : Fragment() {
 
     private var binding: FragmentShareFileBinding? = null
 
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

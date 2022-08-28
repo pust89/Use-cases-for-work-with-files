@@ -23,8 +23,6 @@ import java.io.File
 
 class SaveFileFragment : Fragment() {
 
-    private val fileProviderAuthorities: String by lazy { getString(R.string.file_provider_authorities) }
-
     private var permissionValueCallback by MultiplePermissionsDelegate(this)
 
     private var binding: FragmentSaveFileBinding? = null
